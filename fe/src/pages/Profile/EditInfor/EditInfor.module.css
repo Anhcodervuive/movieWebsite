@@ -1,0 +1,27 @@
+.wrapper {
+    min-height: 500px;
+    padding: 70px 10px;
+}
+
+.edit-infor,
+.change-password {
+    padding: 16px 24px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        #202020;
+    border-radius: 8px;
+    margin: 20px 0 40px;
+}
+
+@media (min-width: 740px) {
+}
+
+@media (min-width: 1113px) {
+    .form-control {
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+}

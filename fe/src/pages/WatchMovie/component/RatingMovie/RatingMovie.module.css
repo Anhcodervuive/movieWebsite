@@ -1,0 +1,12 @@
+.rating-display {
+    font-size: 1rem;
+}
+
+.big-primary-star {
+    color: var(--orange);
+}
+
+.rating-quantity {
+    margin-left: 5px;
+    color: #616161;
+}

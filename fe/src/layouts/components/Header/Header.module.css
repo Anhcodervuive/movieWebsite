@@ -1,0 +1,94 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: var(--header-height);
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: var(--background-color);
+    z-index: 10;
+}
+
+.container {
+    padding: 0 18px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+.nav-item a,
+.nav-item button {
+    color: #9b9b9b;
+}
+
+.wrapper button {
+    font-weight: 600;
+    height: 100%;
+}
+
+a.nav-item-active {
+    color: var(--text-color);
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    gap: 0;
+}
+
+.header-avt {
+    font-size: 1.3rem;
+}
+
+.header-avt:hover {
+    color: var(--text-color);
+}
+
+.header-avt-action {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    padding: 5px 0;
+}
+
+.header-avt-action a,
+.header-avt-action button {
+    font-size: 1rem;
+}
+
+@media (min-width: 740px) {
+    .more-catalog-popper {
+        width: 180px;
+        background-color: #1f1f1f;
+        border-radius: 0.2rem;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+    }
+}
+
+@media (min-width: 1113px) {
+    .action {
+        justify-content: flex-end;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+}

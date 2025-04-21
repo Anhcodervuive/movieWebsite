@@ -1,0 +1,34 @@
+.wrapper {
+    height: 90vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    background: #202020;
+    color: var(--gray);
+    trasition: display 0.3 ease;
+    animation: fadeIn 1s ease-in-out infinite alternate;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    position: relative;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    z-index: 666;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}

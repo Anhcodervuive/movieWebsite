@@ -1,0 +1,60 @@
+.wrapper {
+    padding: 0 20px;
+}
+
+.title {
+    margin-bottom: 24px;
+}
+
+.recommend-movie-item {
+    display: flex;
+    align-items: space-between;
+    margin: 15px 0;
+}
+
+.recommend-movie-item a,
+.recommend-movie-item button {
+    padding: 0;
+}
+
+.movie-item-infor {
+    margin-left: 16px;
+}
+
+.movie-name {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.movie-subinfor {
+    display: flex;
+    gap: 24px;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.recommend-keyword-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.recommend-keyword-item {
+    font-size: 0.875rem;
+}
+
+@media (min-width: 1113px) {
+    .recommend-movie-item {
+        display: flex;
+        align-items: center;
+    }
+    .movie-name {
+        margin-bottom: 10px;
+    }
+
+    .movie-subinfor {
+        gap: 16px;
+        font-size: 0.875rem;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,10 @@
+.wrapper {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 0.1px solid rgb(130 130 130 / 30%);
+}

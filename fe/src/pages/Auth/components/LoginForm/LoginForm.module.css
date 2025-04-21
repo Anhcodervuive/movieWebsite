@@ -1,0 +1,40 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--dark);
+    border-radius: 10px;
+    padding: 30px 40px;
+    min-width: 90%;
+}
+
+.hidden {
+    display: none;
+}
+
+.title {
+    text-align: center;
+}
+
+.login-form .other-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+.login-form .action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 1113px) {
+    .login-form {
+        min-width: 30%;
+    }
+}

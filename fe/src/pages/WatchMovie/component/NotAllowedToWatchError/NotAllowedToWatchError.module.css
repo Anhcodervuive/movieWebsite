@@ -1,0 +1,30 @@
+.wrapper {
+    height: 30vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background: #202020;
+    color: var(--gray);
+    trasition: display 0.3 ease;
+}
+
+@media (max-width: 550px) {
+}
+
+@media (min-width: 740px) {
+}
+
+@media (min-width: 1113px) {
+    .wrapper {
+        font-size: 3rem;
+        height: 70vh;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+}

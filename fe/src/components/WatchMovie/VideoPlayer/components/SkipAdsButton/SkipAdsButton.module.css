@@ -1,0 +1,9 @@
+.wrapper {
+    position: absolute; /* Đặt control bar đè lên video */
+    bottom: 60px;
+    right: 6px;
+}
+
+.wrapper button {
+    font-size: 1.2rem;
+}

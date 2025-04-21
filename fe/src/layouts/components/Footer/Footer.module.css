@@ -1,0 +1,28 @@
+button,
+a {
+    color: var(--text-color);
+}
+
+.wrapper {
+    margin-top: 80px;
+}
+
+.devider {
+    max-width: 1150px;
+    margin: 20px auto;
+    border: 0.5px solid #252525;
+}
+
+.container {
+    padding: 0 18px;
+}
+
+.item-title {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.logo img {
+    height: 40px;
+}

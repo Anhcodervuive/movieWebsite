@@ -1,0 +1,7 @@
+.wrapper {
+    background-color: var(--background-color);
+}
+
+.container {
+    padding-top: var(--header-height);
+}

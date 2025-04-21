@@ -1,0 +1,68 @@
+.wrapper {
+    padding: 40px 10px;
+}
+
+.user-infor-header,
+.user-infor-body {
+    padding: 16px 24px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        #202020;
+    border-radius: 8px;
+}
+
+.edit-user-btn {
+    font-size: 1rem;
+    margin-left: auto;
+}
+
+.user-infor-header {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 40px;
+    min-height: 96px;
+}
+
+.user-img-default {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        #202020;
+    font-size: 30px;
+}
+
+.item {
+    padding: 28px 0;
+}
+
+.item .title {
+    color: var(--gray);
+}
+
+.item .value {
+    margin-left: 10px;
+}
+
+.divider {
+    height: 1px;
+    background: #2c2c2e;
+}
+
+@media (min-width: 740px) {
+}
+
+@media (min-width: 1113px) {
+    .wrapper {
+        padding: 70px 10px;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+}

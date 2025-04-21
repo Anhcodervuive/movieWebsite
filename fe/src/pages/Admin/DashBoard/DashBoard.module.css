@@ -1,0 +1,150 @@
+.wrapper {
+    background-color: var(--background-color);
+    min-height: 1000px;
+
+    --component-background: #141314;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.wrapper h4 {
+    color: var(--gray);
+}
+
+/* Thống kê trên cùng */
+.stats {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.stat-item {
+    background: var(--component-background);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.stat-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    text-align: left;
+}
+
+/* Mục xếp hạng phim */
+.top-rated {
+    grid-column: span 2;
+    background: var(--component-background);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.top-rated-list {
+    padding: 10px 20px;
+}
+
+.movie-item {
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.movie-item-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.view-infor {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.rate-infor {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+}
+
+/* Biểu đồ */
+.top-categories,
+.user-statistic {
+    background: var(--component-background);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h4.user-statistic-header {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.top-categories-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.top-categories-header div {
+    width: 20%;
+}
+
+.top-category {
+    background: var(--component-background);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.top-categories-chart-bar,
+.user-chart-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.color-display-in-chart {
+    width: 30px;
+    height: 30px;
+}
+
+.chart-infor {
+    width: 50%;
+    font-size: 0.875rem;
+}
+
+.chart-infor-item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+/* Lịch sử xem phim */
+.top-viewed {
+    grid-column: span 2;
+    background: var(--component-background);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.top-viewed-header {
+    display: flex;
+    justify-content: space-between;
+}

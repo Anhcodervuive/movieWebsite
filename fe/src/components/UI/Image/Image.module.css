@@ -1,0 +1,50 @@
+.avt {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.recommend-movie-image,
+.stand-rectangle,
+.vertical-rectangle,
+.recommend-movie-image-search,
+.search-image-result,
+.movie-admin-table {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.recommend-movie-image {
+    padding-top: 50%;
+}
+
+.stand-rectangle {
+    padding-top: 150%;
+    border-radius: 10px;
+}
+
+.vertical-rectangle {
+    padding-top: 50%;
+    border-radius: 10px;
+}
+
+.recommend-movie-image-search {
+    width: 160px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.search-image-result {
+    width: 100%;
+    padding-top: 50%;
+    border-radius: 10px;
+}
+
+.movie-admin-table {
+    width: 70px;
+    height: 70px;
+}

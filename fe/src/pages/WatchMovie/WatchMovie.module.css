@@ -1,0 +1,88 @@
+.wrapper {
+    padding: 0 20px;
+}
+
+.vietnamese-name {
+    margin-bottom: 10px;
+}
+
+.video-infor {
+    margin-top: 50px;
+}
+
+.origin-name {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.rating-component {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.rating-display {
+    font-size: 1rem;
+}
+
+.big-primary-star {
+    color: var(--orange);
+}
+
+.rating-quantity {
+    margin-left: 5px;
+    color: #616161;
+}
+
+.movie-sub-infor {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.other-infor-item {
+    margin-bottom: 6px;
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.eps-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.eps-btn {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+}
+
+.eps-btn:hover {
+    background: #2c2c2e;
+    color: var(--text-color);
+}
+
+.episode-list {
+    max-height: 250px;
+    padding: 15px;
+    background: #0c0c0c;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.episode-list::-webkit-scrollbar {
+    border-radius: 4px;
+    width: 8px;
+}
+
+.episode-list::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgb(216, 216, 216);
+}
+
+.episode-list::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: var(--dark-gray);
+}

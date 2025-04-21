@@ -1,0 +1,49 @@
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--dark);
+    border-radius: 10px;
+    padding: 30px 40px;
+    min-width: 90%;
+}
+
+.hidden {
+    display: none;
+}
+
+.title {
+    text-align: center;
+}
+
+.register-form .other-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+.register-form .action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+.form-group {
+    row-gap: 12px;
+}
+
+@media (min-width: 1113px) {
+    .register-form {
+        min-width: 50%;
+    }
+}

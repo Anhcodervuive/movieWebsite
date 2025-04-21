@@ -1,0 +1,41 @@
+{
+    "name": "be",
+    "version": "1.0.0",
+    "description": "API Website xem phim",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "Do Thanh Du",
+    "license": "ISC",
+    "dependencies": {
+        "@casl/ability": "^6.7.3",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.3",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "express-session": "^1.18.1",
+        "fluent-ffmpeg": "^2.1.3",
+        "fs": "^0.0.1-security",
+        "jsonwebtoken": "^9.0.2",
+        "knex": "^3.1.0",
+        "moment": "^2.30.1",
+        "multer": "^1.4.5-lts.1",
+        "mysql": "^2.18.1",
+        "mysql2": "^3.12.0",
+        "nodemailer": "^6.10.0",
+        "path": "^0.12.7",
+        "qs": "^6.14.0",
+        "redis": "^4.7.0",
+        "sequelize": "^6.37.5",
+        "sha256": "^0.2.0",
+        "slugify": "^1.6.6"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0",
+        "nodemon": "^3.1.9"
+    }
+}

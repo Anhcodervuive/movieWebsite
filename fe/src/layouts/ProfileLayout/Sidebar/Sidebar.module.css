@@ -1,0 +1,97 @@
+.wrapper li {
+    padding: 0 16px;
+    margin: 12px 0;
+    font-size: 0.7rem;
+    flex: 0 0 auto;
+    width: 100px;
+    user-select: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    cursor: grab;
+}
+
+li.active {
+    border-left: 3px solid white;
+}
+
+li.active a,
+li.active button {
+    color: var(--text-color);
+}
+
+.wrapper a,
+.wrapper button {
+    color: #a6a6a6;
+}
+
+.wrapper button {
+    font-size: 0.8rem;
+}
+
+.wrapper .divider {
+    max-width: 200px;
+    height: 1px;
+    background: #2c2c2e;
+    margin: 11.5px 0;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background-color: var(--dark-gray);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: var(--gray);
+    width: 0;
+    transition: width 0.2s ease;
+}
+
+@media (min-width: 740px) {
+}
+
+@media (min-width: 1113px) {
+    li.active {
+        border-left: 1px solid white;
+    }
+
+    .wrapper {
+        display: block;
+    }
+
+    .wrapper li {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .wrapper a:hover,
+    .wrapper button:hover {
+        color: var(--text-color);
+    }
+
+    .wrapper button {
+        font-size: 0.9rem;
+    }
+
+    .progress-bar {
+        display: none;
+    }
+
+    .progress-bar-fill {
+        display: none;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+}

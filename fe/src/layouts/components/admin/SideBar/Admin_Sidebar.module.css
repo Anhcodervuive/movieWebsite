@@ -1,0 +1,44 @@
+.wrapper {
+    background-color: #141314;
+    border-top: 1px solid #262525;
+    padding: 10px;
+    overflow: scroll;
+    /* test */
+    /* min-height: 500px; */
+}
+
+.wrapper ul li {
+    padding: 5px 0;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.wrapper button,
+.wrapper a {
+    color: var(--gray) !important;
+}
+
+.wrapper li:hover {
+    background-color: rgb(255 101 0 / 20%);
+}
+
+.wrapper li:hover a {
+    color: var(--primary) !important;
+}
+
+.active {
+    background-color: var(--primary);
+}
+
+.active a {
+    color: var(--text-color) !important;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}

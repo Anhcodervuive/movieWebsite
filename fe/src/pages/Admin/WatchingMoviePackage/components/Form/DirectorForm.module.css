@@ -1,0 +1,27 @@
+.form-control {
+    margin-right: 10px;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    display: inline-block;
+    margin-top: 5px;
+    color: var(--red);
+    font-size: 0.875rem;
+}
+
+.save-btn {
+    display: block;
+    margin-left: 10px;
+}
+
+.checkbox-form-control {
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 15px;
+}

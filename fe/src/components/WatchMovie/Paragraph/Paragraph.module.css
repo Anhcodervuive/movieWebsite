@@ -1,0 +1,37 @@
+.wrapper {
+    position: relative;
+    overflow-y: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+
+.content {
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.toogle-button {
+    line-height: 1.5;
+    color: var(--dark-gray);
+    background-color: var(--background-color);
+    cursor: pointer;
+    transition: color 0.6 ease;
+    padding-left: 10px;
+    font-size: 0.875rem;
+}
+
+.more-content-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hide-content-button {
+    float: right;
+}
+
+@media (min-width: 1113px) {
+    .toogle-button:hover {
+        color: var(--text-color);
+    }
+}

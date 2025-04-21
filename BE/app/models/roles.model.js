@@ -1,0 +1,31 @@
+const { Model, DataTypes } = require('sequelize');
+
+const MySQL = require('../utils/mysql.util');
+
+const sequelize = MySQL.connect();
+
+class Roles extends Model {}
+
+Roles.init(
+    {
+        name: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        guard_name: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            defaultValue: 'backpack',
+        },
+    },
+    {
+        sequelize,
+        tableName: 'roles',
+        modelName: 'roles',
+        createdAt: 'created_at',
+        updatedAt: 'updated_at',
+        timestamps: true,
+    }
+);
+
+module.exports = Roles;

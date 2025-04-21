@@ -1,0 +1,40 @@
+.toast-wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 1rem;
+    background: #0f0f0f;
+    border-radius: 8px;
+}
+
+.toast-wrapper .icon {
+    font-size: 45px;
+}
+
+.toast-wrapper .title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.toast-wrapper .message {
+    font-size: 1rem;
+}
+
+.success {
+    color: var(--green);
+}
+
+.error {
+    color: var(--red);
+}
+.warning {
+    color: var(--yellow);
+}
+.infor {
+    color: var(--blue);
+}
+
+@media (min-width: 1113px) {
+    .toast-wrapper {
+        width: 400px;
+    }
+}

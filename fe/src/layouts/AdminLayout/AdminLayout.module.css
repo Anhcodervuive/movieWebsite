@@ -1,0 +1,25 @@
+.wrapper {
+    background-color: var(--background-color);
+    min-height: 1000px;
+
+    --sidebar-width: 250px;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: var(--sidebar-width);
+}
+
+.body {
+    padding-left: var(--sidebar-width);
+}
+
+.content {
+    margin: 40px 0 0 40px;
+    background-color: #141314;
+
+    /* TEST */
+    min-height: 1000px;
+}

@@ -1,0 +1,109 @@
+.wrapper {
+}
+
+.form-control {
+    margin-right: 10px;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    display: inline-block;
+    margin-top: 5px;
+    color: var(--red);
+    font-size: 0.875rem;
+}
+
+.add-content-panel {
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.add-content-btn {
+    height: 40px;
+    margin-left: 10px;
+}
+
+.page-content {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid rgb(130 130 130 / 40%);
+    border-radius: 5px;
+}
+
+.light-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    background-color: #000;
+    color: var(--gray);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.light-table thead {
+    color: var(--text-color);
+    background-color: #232323;
+}
+
+.light-table th,
+.light-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.light-table th {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.light-table th div {
+    display: flex;
+    align-item: center;
+    justify-content: space-between;
+}
+
+.light-table th:first-child,
+.light-table td:first-child {
+    padding-left: 20px;
+}
+
+.light-table tr {
+    border-bottom: 10px solid #141314;
+}
+
+.light-table tr:last-child {
+    border-bottom: none;
+}
+
+.light-table tbody tr:hover {
+    /* background-color: #d3d4e3; */
+}
+
+.light-table tbody tr:nth-child(even) {
+    /* background-color: #e9eaf1; */
+}
+
+.page-content-carousel-header {
+    margin-left: 20px;
+}
+.page-content-carousel-header-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #141314;
+    border: none;
+    border-radius: 5px;
+}
+
+.page-content-carousel-header-item.active {
+    border: 1px solid rgb(130 130 130 / 40%);
+    border-bottom: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.add-movie-btn {
+    margin-left: 10px;
+}

@@ -1,0 +1,137 @@
+.form-control {
+    margin-right: 10px;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    display: inline-block;
+    margin-top: 5px;
+    color: var(--red);
+    font-size: 0.875rem;
+}
+
+.save-btn {
+    display: block;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.section-header {
+    display: flex;
+}
+
+.section-header .active {
+    background: rgb(49 49 49 / 30%);
+}
+
+.section-body {
+    background: rgb(49 49 49 / 30%);
+    padding: 0 10px;
+}
+
+.section-item {
+    display: none;
+    padding: 30px 20px;
+}
+
+.radio-input-wrapper,
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox-wrapper {
+    margin-bottom: 10px;
+}
+
+.add-actor-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-actor-body {
+    gap: 5px;
+}
+.server-carousel-header {
+    margin-left: 20px;
+}
+.server-carousel-header-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: none;
+}
+
+.server-carousel-header-item.active {
+    border: 1px solid rgb(130 130 130 / 40%);
+    border-bottom: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.server-content {
+    border: 1px solid rgb(130 130 130 / 40%);
+    padding: 10px;
+}
+
+.light-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    background-color: #000;
+    color: var(--gray);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.light-table thead {
+    color: var(--text-color);
+    background-color: #232323;
+}
+
+.light-table th,
+.light-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.light-table th {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.light-table th div {
+    display: flex;
+    align-item: center;
+    justify-content: space-between;
+}
+
+.light-table th:first-child,
+.light-table td:first-child {
+    padding-left: 20px;
+}
+
+.light-table tr {
+    border-bottom: 0.1px solid rgb(130 130 130 / 30%);
+}
+
+.light-table tr:last-child {
+    border-bottom: none;
+}
+
+.light-table tbody tr:hover {
+    /* background-color: #d3d4e3; */
+}
+
+.light-table tbody tr:nth-child(even) {
+    /* background-color: #e9eaf1; */
+}
+
+.table-text-input {
+    max-width: 70px;
+}

@@ -1,0 +1,92 @@
+.other-controllers {
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.other-controllers button {
+    font-size: 1.3rem;
+    width: 35px;
+}
+
+.volumn-icon-btn:hover,
+.other-controllers button:hover {
+    color: var(--text-color);
+}
+
+.skip-backward-5,
+.skip-forward-5 {
+    position: relative;
+}
+
+.skip-backward-5::after,
+.skip-forward-5::after {
+    content: '5';
+    position: absolute;
+    font-size: 0.6rem;
+}
+
+.volumn-control {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.54);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.volumn-control::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: var(--orange);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.volumn-control::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+.volumn-control::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: var(--orange);
+    cursor: ;
+}
+
+.volumn-icon-btn {
+    position: relative;
+
+    width: 35px;
+    height: 100%;
+}
+
+.language-btn {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.language-control {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        #202020;
+    border-radius: 8px;
+    padding: 10px 10px;
+    width: 150px !important;
+    overflow: hidden;
+}
+
+.language-control button {
+    width: 100%;
+    font-size: 0.875rem !important;
+}

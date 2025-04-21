@@ -1,0 +1,43 @@
+.player {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.skip-icon {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: #38333d;
+    opacity: 0.8;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.forward-5s,
+.backward-5s {
+    display: none;
+}
+
+.is-forward {
+    display: inline-block;
+}
+
+.is-backward {
+    display: inline-block;
+}
+
+.fadeOut {
+    animation: fadeOut 0.5s ease-out forwards;
+}

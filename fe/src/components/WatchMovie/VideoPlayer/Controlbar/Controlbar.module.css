@@ -1,0 +1,20 @@
+.controller {
+    display: none;
+    position: absolute; /* Đặt control bar đè lên video */
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 100%;
+    padding: 0 20px;
+    transition: display 0.6s ease-in-out;
+    height: 90px;
+    opacity: 1;
+    background: linear-gradient(to top, rgb(0 0 0 / 100%) 0, transparent 85%);
+}
+
+@media (min-width: 1113px) {
+    .controller {
+        padding: 0 40px;
+    }
+}
